@@ -7,62 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D83333092B109011008F6D9A /* glimpseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83333082B109011008F6D9A /* glimpseApp.swift */; };
-		D833330B2B109011008F6D9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D833330A2B109011008F6D9A /* ContentView.swift */; };
 		D833330D2B109012008F6D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D833330C2B109012008F6D9A /* Assets.xcassets */; };
-		D83333102B109012008F6D9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D833330F2B109012008F6D9A /* Preview Assets.xcassets */; };
-		D833331B2B109012008F6D9A /* glimpseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D833331A2B109012008F6D9A /* glimpseTests.swift */; };
-		D83333252B109012008F6D9A /* glimpseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83333242B109012008F6D9A /* glimpseUITests.swift */; };
-		D83333272B109012008F6D9A /* glimpseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83333262B109012008F6D9A /* glimpseUITestsLaunchTests.swift */; };
+		D8888A382B10F4C200F04E74 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D8888A372B10F4C200F04E74 /* Preview Content */; };
+		D8888A3A2B11D8F400F04E74 /* GlimpseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8888A392B11D8F400F04E74 /* GlimpseApp.swift */; };
+		D8888A3C2B11D9FC00F04E74 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8888A3B2B11D9FC00F04E74 /* AppMenu.swift */; };
+		D8F701A92B11E76B00C427B3 /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701A82B11E76B00C427B3 /* Click.swift */; };
+		D8F701AB2B11E86B00C427B3 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701AA2B11E86B00C427B3 /* Display.swift */; };
+		D8F701AD2B11E99D00C427B3 /* ClickList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701AC2B11E99D00C427B3 /* ClickList.swift */; };
+		D8F701B22B11EFC800C427B3 /* useOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701B12B11EFC800C427B3 /* useOperation.swift */; };
+		D8F701B82B12059800C427B3 /* useAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701B72B12059800C427B3 /* useAccessibility.swift */; };
+		D8F701BD2B12320000C427B3 /* useJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701BC2B12320000C427B3 /* useJson.swift */; };
+		D8F701BF2B1237F200C427B3 /* useClicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F701BE2B1237F200C427B3 /* useClicks.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D83333172B109012008F6D9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D83332FD2B109010008F6D9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D83333042B109011008F6D9A;
-			remoteInfo = glimpse;
-		};
-		D83333212B109012008F6D9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D83332FD2B109010008F6D9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D83333042B109011008F6D9A;
-			remoteInfo = glimpse;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D83333052B109011008F6D9A /* glimpse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glimpse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D83333082B109011008F6D9A /* glimpseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimpseApp.swift; sourceTree = "<group>"; };
-		D833330A2B109011008F6D9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D833330C2B109012008F6D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D833330F2B109012008F6D9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D83333112B109012008F6D9A /* glimpse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glimpse.entitlements; sourceTree = "<group>"; };
-		D83333162B109012008F6D9A /* glimpseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glimpseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D833331A2B109012008F6D9A /* glimpseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimpseTests.swift; sourceTree = "<group>"; };
-		D83333202B109012008F6D9A /* glimpseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glimpseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D83333242B109012008F6D9A /* glimpseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimpseUITests.swift; sourceTree = "<group>"; };
-		D83333262B109012008F6D9A /* glimpseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glimpseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8888A362B10F4A200F04E74 /* glimpse.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = glimpse.entitlements; sourceTree = "<group>"; };
+		D8888A372B10F4C200F04E74 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		D8888A392B11D8F400F04E74 /* GlimpseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlimpseApp.swift; sourceTree = "<group>"; };
+		D8888A3B2B11D9FC00F04E74 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		D8F701A82B11E76B00C427B3 /* Click.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click.swift; sourceTree = "<group>"; };
+		D8F701AA2B11E86B00C427B3 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		D8F701AC2B11E99D00C427B3 /* ClickList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickList.swift; sourceTree = "<group>"; };
+		D8F701B12B11EFC800C427B3 /* useOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useOperation.swift; sourceTree = "<group>"; };
+		D8F701B72B12059800C427B3 /* useAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useAccessibility.swift; sourceTree = "<group>"; };
+		D8F701BC2B12320000C427B3 /* useJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useJson.swift; sourceTree = "<group>"; };
+		D8F701BE2B1237F200C427B3 /* useClicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useClicks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D83333022B109011008F6D9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D83333132B109012008F6D9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D833331D2B109012008F6D9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				D83333072B109011008F6D9A /* glimpse */,
-				D83333192B109012008F6D9A /* glimpseTests */,
-				D83333232B109012008F6D9A /* glimpseUITests */,
 				D83333062B109011008F6D9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D83333052B109011008F6D9A /* glimpse.app */,
-				D83333162B109012008F6D9A /* glimpseTests.xctest */,
-				D83333202B109012008F6D9A /* glimpseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,38 +66,44 @@
 		D83333072B109011008F6D9A /* glimpse */ = {
 			isa = PBXGroup;
 			children = (
-				D83333082B109011008F6D9A /* glimpseApp.swift */,
-				D833330A2B109011008F6D9A /* ContentView.swift */,
+				D8F701B02B11EEBF00C427B3 /* Hooks */,
+				D8F701A72B11E75D00C427B3 /* Models */,
+				D8F701A62B11E6CA00C427B3 /* Views */,
+				D8888A372B10F4C200F04E74 /* Preview Content */,
 				D833330C2B109012008F6D9A /* Assets.xcassets */,
-				D83333112B109012008F6D9A /* glimpse.entitlements */,
-				D833330E2B109012008F6D9A /* Preview Content */,
+				D8888A362B10F4A200F04E74 /* glimpse.entitlements */,
+				D8888A392B11D8F400F04E74 /* GlimpseApp.swift */,
 			);
 			path = glimpse;
 			sourceTree = "<group>";
 		};
-		D833330E2B109012008F6D9A /* Preview Content */ = {
+		D8F701A62B11E6CA00C427B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D833330F2B109012008F6D9A /* Preview Assets.xcassets */,
+				D8888A3B2B11D9FC00F04E74 /* AppMenu.swift */,
+				D8F701AC2B11E99D00C427B3 /* ClickList.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		D83333192B109012008F6D9A /* glimpseTests */ = {
+		D8F701A72B11E75D00C427B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D833331A2B109012008F6D9A /* glimpseTests.swift */,
+				D8F701A82B11E76B00C427B3 /* Click.swift */,
+				D8F701AA2B11E86B00C427B3 /* Display.swift */,
 			);
-			path = glimpseTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		D83333232B109012008F6D9A /* glimpseUITests */ = {
+		D8F701B02B11EEBF00C427B3 /* Hooks */ = {
 			isa = PBXGroup;
 			children = (
-				D83333242B109012008F6D9A /* glimpseUITests.swift */,
-				D83333262B109012008F6D9A /* glimpseUITestsLaunchTests.swift */,
+				D8F701B12B11EFC800C427B3 /* useOperation.swift */,
+				D8F701B72B12059800C427B3 /* useAccessibility.swift */,
+				D8F701BC2B12320000C427B3 /* useJson.swift */,
+				D8F701BE2B1237F200C427B3 /* useClicks.swift */,
 			);
-			path = glimpseUITests;
+			path = Hooks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,42 +126,6 @@
 			productReference = D83333052B109011008F6D9A /* glimpse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D83333152B109012008F6D9A /* glimpseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D833332D2B109012008F6D9A /* Build configuration list for PBXNativeTarget "glimpseTests" */;
-			buildPhases = (
-				D83333122B109012008F6D9A /* Sources */,
-				D83333132B109012008F6D9A /* Frameworks */,
-				D83333142B109012008F6D9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D83333182B109012008F6D9A /* PBXTargetDependency */,
-			);
-			name = glimpseTests;
-			productName = glimpseTests;
-			productReference = D83333162B109012008F6D9A /* glimpseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D833331F2B109012008F6D9A /* glimpseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D83333302B109012008F6D9A /* Build configuration list for PBXNativeTarget "glimpseUITests" */;
-			buildPhases = (
-				D833331C2B109012008F6D9A /* Sources */,
-				D833331D2B109012008F6D9A /* Frameworks */,
-				D833331E2B109012008F6D9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D83333222B109012008F6D9A /* PBXTargetDependency */,
-			);
-			name = glimpseUITests;
-			productName = glimpseUITests;
-			productReference = D83333202B109012008F6D9A /* glimpseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +138,6 @@
 				TargetAttributes = {
 					D83333042B109011008F6D9A = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					D83333152B109012008F6D9A = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = D83333042B109011008F6D9A;
-					};
-					D833331F2B109012008F6D9A = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = D83333042B109011008F6D9A;
 					};
 				};
 			};
@@ -222,8 +155,6 @@
 			projectRoot = "";
 			targets = (
 				D83333042B109011008F6D9A /* glimpse */,
-				D83333152B109012008F6D9A /* glimpseTests */,
-				D833331F2B109012008F6D9A /* glimpseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,22 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83333102B109012008F6D9A /* Preview Assets.xcassets in Resources */,
+				D8888A382B10F4C200F04E74 /* Preview Content in Resources */,
 				D833330D2B109012008F6D9A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D83333142B109012008F6D9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D833331E2B109012008F6D9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +176,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D833330B2B109011008F6D9A /* ContentView.swift in Sources */,
-				D83333092B109011008F6D9A /* glimpseApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D83333122B109012008F6D9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D833331B2B109012008F6D9A /* glimpseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D833331C2B109012008F6D9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D83333272B109012008F6D9A /* glimpseUITestsLaunchTests.swift in Sources */,
-				D83333252B109012008F6D9A /* glimpseUITests.swift in Sources */,
+				D8F701B22B11EFC800C427B3 /* useOperation.swift in Sources */,
+				D8F701AB2B11E86B00C427B3 /* Display.swift in Sources */,
+				D8F701BF2B1237F200C427B3 /* useClicks.swift in Sources */,
+				D8F701A92B11E76B00C427B3 /* Click.swift in Sources */,
+				D8888A3C2B11D9FC00F04E74 /* AppMenu.swift in Sources */,
+				D8888A3A2B11D8F400F04E74 /* GlimpseApp.swift in Sources */,
+				D8F701AD2B11E99D00C427B3 /* ClickList.swift in Sources */,
+				D8F701B82B12059800C427B3 /* useAccessibility.swift in Sources */,
+				D8F701BD2B12320000C427B3 /* useJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D83333182B109012008F6D9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D83333042B109011008F6D9A /* glimpse */;
-			targetProxy = D83333172B109012008F6D9A /* PBXContainerItemProxy */;
-		};
-		D83333222B109012008F6D9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D83333042B109011008F6D9A /* glimpse */;
-			targetProxy = D83333212B109012008F6D9A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D83333282B109012008F6D9A /* Debug */ = {
@@ -429,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +351,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,78 +362,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		D833332E2B109012008F6D9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.glimpseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glimpse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/glimpse";
-			};
-			name = Debug;
-		};
-		D833332F2B109012008F6D9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.glimpseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glimpse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/glimpse";
-			};
-			name = Release;
-		};
-		D83333312B109012008F6D9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.glimpseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = glimpse;
-			};
-			name = Debug;
-		};
-		D83333322B109012008F6D9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QDB65CXLHC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.element.glimpseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = glimpse;
 			};
 			name = Release;
 		};
@@ -558,24 +382,6 @@
 			buildConfigurations = (
 				D833332B2B109012008F6D9A /* Debug */,
 				D833332C2B109012008F6D9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D833332D2B109012008F6D9A /* Build configuration list for PBXNativeTarget "glimpseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D833332E2B109012008F6D9A /* Debug */,
-				D833332F2B109012008F6D9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D83333302B109012008F6D9A /* Build configuration list for PBXNativeTarget "glimpseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D83333312B109012008F6D9A /* Debug */,
-				D83333322B109012008F6D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
